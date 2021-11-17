@@ -3,10 +3,9 @@ const express = require('express');
 // Creates the app
 const app = express();
 
-// Sends an HTTP Response when receiving HTTP GET /
-
+// Sends the index.html when receiving HTTP GET /
 app.get('/', (req, res) => {
-    res.send("Hello, your server is up and running");
+    res.sendFile('public/index.html', {root: __dirname});
 });
 
 //Make the app listen on port
