@@ -4,8 +4,9 @@ const express = require('express');
 const app = express();
 
 // Sends the index.html when receiving HTTP GET /
+app.use(express.static('public'));
 app.get('/', (req, res) => {
-    res.sendFile('public/index.html', {root: __dirname});
+    res.sendFile('index.html', { root: __dirname});
 });
 
 //Make the app listen on port
