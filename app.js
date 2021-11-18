@@ -3,10 +3,11 @@ const express = require('express');
 // Creates the app
 const app = express();
 
-// Sends the index.html when receiving HTTP GET /
+// Handles Static HTML, EJS templates
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
-    res.sendFile('index.html', { root: __dirname});
+    res.render('index'); //ejs extension is not required
 });
 
 //Make the app listen on port
