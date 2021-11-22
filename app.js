@@ -24,3 +24,7 @@ const server = app.listen(port, () => {
 //Passes requests to the router middleware
 const router = require('./routes/apis');
 app.use(router);
+
+//Passes to correctly implement the login/logout feature
+const session = require('express-session');
+app.use(session({secret: 'some secret code'}));
