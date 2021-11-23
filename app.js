@@ -3,6 +3,10 @@ const express = require('express');
 // Creates the app
 const app = express();
 
+// using JSON and URL Encoded middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // Handles Static HTML, EJS templates
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
