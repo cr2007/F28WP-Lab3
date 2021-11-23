@@ -15,6 +15,16 @@ app.get('/contacts', (req, res) => {
     res.render('contacts');
 });
 
+//Creates route for login
+app.get('/login', (req, res) => {
+    res.render('login');
+});
+
+//Creates route for register
+app.get('/register', (req, res) => {
+    res.render('register');
+});
+
 //Make the app listen on port
 const port = process.argv[2] || process.env.PORT || 3000;
 const server = app.listen(port, () => {
@@ -28,3 +38,4 @@ app.use(router);
 //Passes to correctly implement the login/logout feature
 const session = require('express-session');
 app.use(session({secret: 'some secret code'}));
+
