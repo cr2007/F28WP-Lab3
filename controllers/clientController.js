@@ -76,6 +76,7 @@ const registerControl = (request, response) => {
             console.log(`Registration (${username}, ${insertedID}) successful!`);
             response.render('postRegister', {username: `Successfull registration "${username}"` });
         }
+        response.end();
     });
 };
 
