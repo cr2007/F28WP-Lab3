@@ -54,7 +54,7 @@ const registerControl = (request, response) => {
     const clientServices = require('../services/clientServices');
 
     let username = request.body.username;
-    let password = request.body.passwsord;
+    let password = request.body.password;
     let society = request.body.society;
     let contact = request.body.contact;
     let addres = request.body.addres;
@@ -64,7 +64,7 @@ const registerControl = (request, response) => {
     let fax = request.body.fax;
     let max_outstanding = request.body.max_outstanding;
     let client = new Client(username, password, 0, society, contact, addres, zipcode, city, phone, fax, max_outstanding);
-
+    console.log(password);
     clientServices.registerService(client, function(err, exists, insertedID) {
         console.log("User from register service :" + insertedID);
         if (exists) {
