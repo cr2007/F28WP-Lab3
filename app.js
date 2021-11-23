@@ -6,6 +6,9 @@ const app = express();
 // using JSON and URL Encoded middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+//Passes to correctly implement the login/logout feature
+const session = require('express-session');
+app.use(session({secret: 'some secret code'}));
 
 // Handles Static HTML, EJS templates
 app.use(express.static('public'));
@@ -39,7 +42,5 @@ const server = app.listen(port, () => {
 const router = require('./routes/apis');
 app.use(router);
 
-//Passes to correctly implement the login/logout feature
-const session = require('express-session');
-app.use(session({secret: 'some secret code'}));
+
 
