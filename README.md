@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://nodejs.org/en/">
-        <img alt="Node.js" title="Node.js" src="https://img.shields.io/badge/Node.js-informational?style=flat-sqaure&logo=node.js&logoColor=white&color=339933">
+        <img alt="Node.js" title="Allows to run JS files locally" src="https://img.shields.io/badge/Node.js-informational?style=flat-sqaure&logo=node.js&logoColor=white&color=339933">
     </a>
     <a href="https://www.npmjs.com">
         <img alt="npm" title="Node Package Manager" src="https://img.shields.io/badge/npm-informational?style=flat-sqaure&logo=npm&logoColor=white&color=CB3837">
@@ -21,3 +21,13 @@
         <img alt="express" title="express" src="https://img.shields.io/badge/express-informational?style=flat-sqaure&logo=express&logoColor=white&color=000000">
     </a>
 </div>
+
+### Lab 3: Node.js and MySQL
+
+- [Running the File](#Running-the-file)
+
+This lab uses [node.js](https://nodejs.org/en/) to run server-side programming.<br>
+We were tasked with developing basic functions for the 
+
+#### Running the File
+Make sure you have [node.js](https://nodejs.org/en/)
