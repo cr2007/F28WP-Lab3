@@ -31,13 +31,13 @@
 - [Running the File](#running-the-file)
 - [File Structure](#file-structure)
 
-This lab uses [node.js](https://nodejs.org/en/) and  to run server-side programming.<br>
+This lab uses [Node.js](https://nodejs.org/en/) and  to run server-side programming.<br>
 We were tasked with developing basic functions for an online shopping application. 
 
 ---
 
 ### Running the File
-Make sure you have [node.js](https://nodejs.org/en/) installed and have the packages installed on your device.
+Make sure you have [Node.js](https://nodejs.org/en/) installed and have the packages installed on your device.
 
 To run the server, open the Terminal and type `npm run dev`<br>
 The server will then run on [http://localhost:3000](http://localhost:3000).
@@ -51,6 +51,10 @@ The server will then run on [http://localhost:3000](http://localhost:3000).
         <li><a href="https://www.npmjs.com/package/express-session">express-session</a></li>
     </ul>
 </details>
+
+<div align="right">
+    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top</a>
+</div>
 
 ### File Structure
 ```
@@ -92,3 +96,6 @@ The server will then run on [http://localhost:3000](http://localhost:3000).
 ├── package.json
 └── sales.sql
 ```
+<div align="right">
+    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top</a>
+</div>
