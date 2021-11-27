@@ -24,10 +24,71 @@
 
 ### Lab 3: Node.js and MySQL
 
-- [Running the File](#Running-the-file)
+---
 
-This lab uses [node.js](https://nodejs.org/en/) to run server-side programming.<br>
-We were tasked with developing basic functions for the 
+### Index
 
-#### Running the File
-Make sure you have [node.js](https://nodejs.org/en/)
+- [Running the File](#running-the-file)
+- [File Structure](#file-structure)
+
+This lab uses [node.js](https://nodejs.org/en/) and  to run server-side programming.<br>
+We were tasked with developing basic functions for an online shopping application. 
+
+---
+
+### Running the File
+Make sure you have [node.js](https://nodejs.org/en/) installed and have the packages installed on your device.
+
+To run the server, open the Terminal and type `npm run dev`<br>
+The server will then run on [http://localhost:3000](http://localhost:3000).
+
+<details><summary>Packages used for this Lab</summary>
+    <ul>
+        <li><a href="https://www.npmjs.com/package/express">express</a></li>
+        <li><a href="https://www.npmjs.com/package/nodemon">nodemon</a></li>
+        <li><a href="https://www.npmjs.com/package/ejs">ejs</a></li>
+        <li><a href="https://www.npmjs.com/package/bcryptjs">bcryptjs</a></li>
+        <li><a href="https://www.npmjs.com/package/express-session">express-session</a></li>
+    </ul>
+</details>
+
+### File Structure
+```
+├── README.md
+├── controllers
+│   ├── clientController.js
+│   └── productController.js
+├── db
+│   ├── clientDAO.js
+│   ├── dbQuery.js
+│   └── productDAO.js
+├── models
+│   └── entities.js
+├── node_modules
+│   └── <all node packages>
+├── public
+│   ├── hwu.css
+│   ├── hwu.png
+│   └── index.html
+├── routes
+│   └── apis.js
+├── services
+│   ├── clientServices.js
+│   └── productServices.js
+├── views
+│   ├── article.ejs
+│   ├── catalogue.ejs
+│   ├── contacts.ejs
+│   ├── footer.ejs
+│   ├── header.ejs
+│   ├── index.ejs
+│   ├── login.ejs
+│   ├── loginFailed.ejs
+│   ├── postLogin.ejs
+│   ├── postRegister.ejs
+│   └── register.ejs
+├── app.js
+├── package-lock.json
+├── package.json
+└── sales.sql
+```
