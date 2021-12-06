@@ -32,14 +32,18 @@
 - [File Structure](#file-structure)
 
 This lab uses [Node.js](https://nodejs.org/en/) and  to run server-side programming.<br>
-We were tasked with developing basic functions for an online shopping application. 
+We were tasked with developing basic functions for an online shopping application.
 
 ---
 
 ### Running the File
 Make sure you have [Node.js](https://nodejs.org/en/) installed and have the packages installed on your device.
 
-To run the server, open the Terminal and type `npm run dev`<br>
+To run the server,
+- Download the [Source Code](https://github.com/cr2007/F28WP-Lab3/archive/refs/heads/master.zip)
+- Open the Terminal
+- Type `npm run dev`
+
 The server will then run on [http://localhost:3000](http://localhost:3000).
 
 <details><summary>Packages used for this Lab</summary>
