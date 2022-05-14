@@ -57,7 +57,7 @@ The server will then run on [http://localhost:3000](http://localhost:3000).
 </details>
 
 <div align="right">
-    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top</a>
+    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top ↥</a>
 </div>
 
 ### File Structure
@@ -101,5 +101,5 @@ The server will then run on [http://localhost:3000](http://localhost:3000).
 └── sales.sql
 ```
 <div align="right">
-    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top</a>
+    <a href="https://github.com/cr2007/F28WP-Lab3#Index">Back to Top ↥</a>
 </div>
